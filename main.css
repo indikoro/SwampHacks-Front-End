@@ -20,9 +20,9 @@ p {
 .container {
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: repeat(3, auto-fit);
-    grid-template-rows: repeat(5, 100px);
-    grid-template-areas: 
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: repeat(5, autofit);
+    grid-template-areas:
         ". h ."
         ". c ."
         ". s ."
