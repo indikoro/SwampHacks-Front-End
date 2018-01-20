@@ -1,2 +1,2 @@
 # SwampHacks-Front-End
-Fuck Foisjdklmx,..??
+"Dankest and Wholest Text Meme Reminder Using Contentful, Twilio, and JS Frameworks" - Guillermo Feyathus Lighta thean Stiel
