@@ -1,40 +1,78 @@
+/*Overall*/
+
+html, body {
+    height: 100%;
+}
+
 body {
     text-align: center;
     font-family: Courier New;
     font-size: 8vw;
     background-color: #ffce5c;
     color: #fff;
-    overflow: auto;
+    min-height: 100%;
 }
 
 p {
     margin: 5%;
 }
 
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, auto-fit);
+    grid-template-rows: repeat(5, 100px);
+    grid-template-areas: 
+        ". h ."
+        ". c ."
+        ". s ."
+        ". l ."
+        ". f .";
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    grid-area: h;
+}
+
+.content {
+    grid-area: c;
+}
+
+.signup {
+    grid-area: s;
+}
+
+.login {
+    grid-area: l;
+}
+
+.footer {
+    grid-area: f;
+}
+
+/*Buttons*/
+
 .landing {
     display: block;
     padding: 2% 4%;
     font-family: sans-serif;
     font-size: 4vw;
-    vertical-align: center;
     margin: auto;
-    margin-top: 5%;
     border-radius: 20px;
     background-color: #FF7F11;
     color: #fff;
     border: 0px;
-}
-
-.landing {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Courier New;
-  color: #ffffff;
-  font-size: 20px;
-  background: #FF7F11;
-  padding: 10px 20px 10px 20px;
-}
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 3vh;
+    background: #FF7F11;
+    padding: 10px 20px 10px 20px;
+    }
 
 .landing:hover {
   background: #ff4b45;
@@ -47,6 +85,8 @@ button:focus {
 a, a:hover {
     text-decoration: none;
 }
+
+/*Footer*/
 
 footer {
     margin-top: 8%;
