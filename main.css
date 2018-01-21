@@ -6,22 +6,18 @@ html, body {
 
 body {
     text-align: center;
-    font-family: Courier New;
-    font-size: 8vw;
+    font-size: 5vh;
     background-color: #ffce5c;
     color: #fff;
     min-height: 100%;
-}
-
-p {
-    margin: 5%;
+    font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: 10% auto 10%;
-    grid-template-rows: repeat(5, autofit);
+    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-areas:
         ". h ."
         ". c ."
@@ -30,6 +26,14 @@ p {
         ". f .";
     justify-content: center;
     align-items: center;
+}
+
+h1 { 
+  font-family: "Texta", "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
 }
 
 .header {
@@ -67,7 +71,6 @@ p {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Courier New;
     color: #ffffff;
     font-size: 3vh;
     background: #FF7F11;
