@@ -50,7 +50,7 @@
     <fieldset class="form-fieldset ui-input __sixth">
       <input type="password" id="new-password" />
       <label for="new-password">
-        <span data-text="New Password">Password</span>
+        <span data-text="Password">Password</span>
       </label>
     </fieldset>
     
@@ -61,27 +61,23 @@
       </label>
     </fieldset>
     <br>
-        <fieldset class="form-fieldset ui-input __eighth">
-                <label for="memetype">
-        <span data-text="Preferred Memes">Preferred memes:</span>
-      </label>
-    <select>
-  <option value="0">Wholesome</option>
-  <option value="1">Deep-Fried</option>
-</select>
-      </fieldset>
+       
+<h2>Preferred Memes:</h2>
+    <form>
+  <input type="radio" name="memetype" value="0" checked> Wholesome<br>
+  <input type="radio" name="memetype" value="1"> Deep-Fried
+</form> 
     
     <div class="form-footer">
-      <button class="btn">Send me memes</button>
+      <button class="btn" id="submitted" onclick='changeText()' value='Submitted!'>Send me memes</button>
     </div>
   </form>
 </div>
    <script>
-    var $input = $('.form-fieldset > input');
-
-$input.blur(function (e) {
-  $(this).toggleClass('filled', !!$(this).val());
-});
-    </script>
+function changeText()
+{
+ document.getElementById('submitted').innerHTML = 'Submitted!';
+}
+</script>
     </body>
 </html>
