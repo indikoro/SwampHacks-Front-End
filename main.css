@@ -94,8 +94,9 @@ button:focus {
     outline: 0;
 }
 
-a, a:hover {
+a, a:hover, a:visited {
     text-decoration: none;
+    color: #fff;
 }
 
 /*Footer*/
