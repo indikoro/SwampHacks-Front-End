@@ -179,7 +179,11 @@ h2 {
 .__first,
 .__second,
 .__third,
-.__fourth {
+.__fourth,
+.__fifth,
+.__sixth,
+.__seventh,
+.__eighth,{
   animation-name: fadeIn;
   animation-duration: 180ms;
   animation-fill-mode: both;
@@ -202,6 +206,26 @@ h2 {
   animation-delay: 360ms;
 }
 
+.__fifth {
+  animation-delay: 540ms;
+}
+
+.__sixth {
+  animation-delay: 720ms;
+}
+
+.__seventh {
+  animation-delay: 900ms;
+}
+
+.__eighth {
+  animation-delay: 1080ms;
+}
+
+.__ninth {
+  animation-delay: 1260ms;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -212,3 +236,4 @@ h2 {
     transform: translate3d(0, 0, 0);
   }
 }
+
