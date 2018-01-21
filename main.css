@@ -6,11 +6,16 @@ html, body {
 
 body {
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
     background-color: #ffce5c;
     color: #fff;
     min-height: 100%;
     font-family: "Avenir Next", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    width: 60%;
+    margin: auto;
 }
 
 .container {
@@ -78,6 +83,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 2px;
     padding: 10px 20px 10px 20px;
+    margin-top: 3%;
     }
 
 .landing:hover {
@@ -97,4 +103,6 @@ a, a:hover {
 footer {
     margin-top: 8%;
     font-size: 2vw;
+    font-style: italic;
+    padding-bottom: 4%;
 }
