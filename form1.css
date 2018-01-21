@@ -183,7 +183,7 @@ h2 {
 .__fifth,
 .__sixth,
 .__seventh,
-.__eighth,{
+.__eighth {
   animation-name: fadeIn;
   animation-duration: 180ms;
   animation-fill-mode: both;
