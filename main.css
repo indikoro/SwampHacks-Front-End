@@ -74,6 +74,9 @@ h1 {
     color: #ffffff;
     font-size: 3vh;
     background: #FF7F11;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
     padding: 10px 20px 10px 20px;
     }
 
